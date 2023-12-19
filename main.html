@@ -9,6 +9,19 @@
     /* Add this style block to set the color of the Venmo logo to white */
     .venmo-vibes img[alt="Venmo logo"] {
       filter: brightness(0) invert(1);
+      max-width: 100%; /* Adjust the maximum width as needed */
+      height: auto; /* Maintain the aspect ratio */
+    }
+
+    /* Center elements on mobile */
+    @media (max-width: 768px) {
+      .venmo-vibes {
+        text-align: center;
+      }
+      .venmo-vibes img[alt="Venmo logo"] {
+        display: block;
+        margin: 0 auto;
+      }
     }
   </style>
 </head>
