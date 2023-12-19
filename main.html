@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload, Pay, Slay: Your Video Magic Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hero">
+    <h1>Drop your beat, drop some dough, get your video glow.</h1>
+    <p>It's the fastest way to turn sound into sight, hustle into hype, and make your audience go "YAS!"</p>
+  </div>
+  <main>
+    <div class="upload-zone">
+      <label for="audio-file">Drag your audio masterpiece here or click to browse:</label>
+      <input type="file" id="audio-file" accept="audio/*" required>
+    </div>
+    <div class="venmo-vibes">
+      <img src="venmo-logo.svg" alt="Venmo logo">
+      <p>Fuel your creativity with the fastest, smoothest payment on the planet. Just Venmo us, and boom, your video's yours.</p>
+    </div>
+    <div class="intensity-dial">
+      <label for="beat-intensity">Pick your beat intensity:</label>
+      <select id="beat-intensity">
+        <option value="low">Subtle simmer</option>
+        <option value="medium">Poppin' pulse</option>
+        <option value="high">Exploding earthquake</option>
+      </select>
+    </div>
+    <button id="venmo-button">Venmo & Render!</button>
+  </main>
+  <div class="video-stage">
+    <video id="edited-video" hidden controls></video>
+    <a href="#" id="download-link" hidden download>Download your video masterpiece!</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
