@@ -29,6 +29,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  text-align: center; /* Center the text on mobile */
 }
 
 .venmo-vibes img {
@@ -72,4 +73,15 @@ main {
   .upload-zone, .venmo-vibes img, #venmo-button {
     width: 100%;
   }
-  #edited-
+  .venmo-vibes p {
+    margin-top: 10px; /* Add space between the logo and the text on mobile */
+  }
+  /* Pink curvy scroll wheel on mobile */
+  ::-webkit-scrollbar-thumb {
+    background-color: #f79520;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #ddd;
+  }
+}
