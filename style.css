@@ -34,8 +34,8 @@ main {
 
 .venmo-vibes img[alt="Venmo logo"] {
   filter: brightness(0) invert(1);
-  width: 50px; /* Adjust the width to your desired size */
-  height: 50px; /* Adjust the height to your desired size */
+  width: 9px; /* Adjust the width to your desired size */
+  height: 9px; /* Adjust the height to your desired size */
   margin-right: 10px;
   display: flex;
   align-items: center; /* Vertically center the items */
