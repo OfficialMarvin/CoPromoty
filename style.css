@@ -34,7 +34,7 @@ main {
 
 .venmo-vibes img[alt="Venmo logo"] {
   filter: brightness(0) invert(1);
-  max-width: 100%; /* Adjust the maximum width as needed */
+  max-width: 7%; /* Adjust the maximum width as needed */
   height: auto; /* Maintain the aspect ratio */
   margin-right: 10px;
 }
