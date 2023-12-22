@@ -11,7 +11,8 @@
     <h1>Drop your beat, drop some dough, get your video glow.</h1>
     <p>It's the fastest way to turn sound into sight, hustle into hype, and make your audience grow by tonight</p>
   </div>
-  <main>
+
+  <div id="api-response"></div> <main>
     <div class="upload-zone">
       <label for="audio-file">Drag your audio masterpiece here or click to browse:</label>
       <input type="file" id="audio-file" accept="audio/*" required>
@@ -26,15 +27,17 @@
     </div>
     <button id="venmo-button">Venmo & Render!</button>
   </main>
+
   <div class="venmo-vibes">
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Venmo_Logo.svg" alt="Venmo logo">
     <p>Fuel your creativity with the fastest, smoothest payment on the planet. Just Venmo us, and boom, your video's yours.</p>
-     <div id="api-response"></div> <script src="script.js"></script>
   </div>
+
   <div class="video-stage">
     <video id="edited-video" hidden controls></video>
     <a href="#" id="download-link" hidden download>Download your video masterpiece!</a>
   </div>
-  
+
+  <script src="script.js"></script>
 </body>
 </html>
