@@ -1,4 +1,4 @@
-const API_URL = 'https://nph770z2xd.execute-api.us-east-2.amazonaws.com/Prod/';
+const API_URL = 'https://5b987o7oal.execute-api.us-east-2.amazonaws.com/Prod/';
 
 fetch(API_URL)
   .then(response => response.json())
